@@ -1,0 +1,88 @@
+
+.container {
+position: left;
+width: 100%;
+overflow: hidden;
+}
+
+.background-image {
+width: 100%;
+height: 100%;
+object-fit: cover; 
+}
+
+.texto-superpuesto {
+position: absolute;
+top: 5%; 
+left: 4%; 
+transform: translate(-50%, -50%);
+color: rgb(0, 0, 0); 
+font-size: 24px; 
+text-align: right;
+padding: 7px; 
+}  
+    .container {
+      position: relative;
+      text-align: left;
+      color: blak#000000;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+    }
+nav {
+    background-color: #F5F5DC;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #996515;
+  }
+  nav a:hover {
+    background-color: #777;
+  }
+  .boton-instagram {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #996515; /* Color café claro */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .boton-instagram:hover {
+    background-color: #996515; /* Cambia el color al pasar el mouse */
+  }
+  .boton-instagram {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D2B48C; /* Color café claro */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .boton-instagram:hover {
+    background-color: #996515; 
+  }
